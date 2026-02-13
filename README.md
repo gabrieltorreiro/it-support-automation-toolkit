@@ -58,7 +58,7 @@ Performs a basic system diagnostic by:
 - Checking CPU usage
 - Checking RAM usage
 - Checking disk space
-- Listing top running processes by CPU Usage
+- Listing top running processes by CPU usage
 
 #### Example Use Case:
 Quick health verification during remote troubleshooting.
@@ -70,7 +70,7 @@ Quick health verification during remote troubleshooting.
 Runs basic network tests such as:
 
 - Local IP display
-- Internet Connectivity
+- Internet connectivity check
 - DNS resolution check
 - Ping test
 
@@ -81,7 +81,12 @@ Diagnosing connectivity issues in support scenarios.
 
 ## 🚀 How to Run
 
-1. Install Python >= 3.14
-2. Clone the repository: git clone https://github.com/gabrieltorreiro/it-support-automation-toolkit.git
-3. Install all packages: pip install -r requirements.txt
-4. Run the scripts: python system_heath_check.py
+1. Install Python 3.10 or later
+
+```bash
+git clone https://github.com/gabrieltorreiro/it-support-automation-toolkit.git
+cd it-support-automation-toolkit
+pip install -r requirements.txt
+python system_health_check.py
+python network_diagnostics.py
+python backup_automation.py
